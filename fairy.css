@@ -1,0 +1,114 @@
+* {box-sizing: border-box}
+.head1{
+    text-align: center;
+    font-family:title;
+}
+@font-face {
+    font-family:title ;
+    src: url(MugioPersonalUse-Bold.otf);
+}
+hr{
+    border: solid black 0px;
+    margin-bottom: 0px;
+}
+.blaz{
+    display:block;
+    width:35%;
+    margin-left:40px;
+    float:left;
+}
+.navbar{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    overflow: hidden;
+    background-color: #333;
+    display:flex;
+    justify-content: space-around;
+}
+.navbar a{
+    display:block;
+    color:white;
+    text-align:center;
+    padding:14px 15px;
+    display:flex;
+    text-decoration:none;
+    width:25%;
+}
+.navbar a.h:hover{
+    background-color: #6e6e69;
+    }
+.navbar a.f:hover{
+    background-color: #ff7433;
+    }
+.navbar a.w:hover{
+    background-color: #268bff;
+    }
+.navbar a.g:hover{
+    background-color: #1acc7f;
+    }
+.navbar a.fy:hover{
+    background-color: #ff3891;
+    }
+.navbar a.p:hover{
+    background-color: #a928ff;
+    }
+a{
+    text-align: center;
+    max-width: 100%;
+}
+.sy{
+    display: block;
+    float: left;
+    width: 17%;
+    margin-left: 17%;
+    margin-top: 3%;
+}
+
+button{
+    display: block;
+    border:#165cad 3px solid;
+    border-radius: 45px;
+    background-color: #165cad;
+    color:aliceblue;
+    padding: 5px;
+    width: 150px;
+    height: 50px;
+    font-family:LiF ;
+    font-size: 15px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    position: relative;
+    margin-left: 20%;
+    margin-top: 1%;
+}
+@font-face {
+    font-family:LiF;
+    src: url(LibreFranklin-SemiBold.ttf);
+}
+
+.h2sy{
+    display: block;
+    background: -webkit-linear-gradient(#ff94d4, #ff0090);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: #333;
+    font-family: rob ;
+    font-weight: bold;
+    font-size: 50px;
+    margin-left: 50%;
+
+}
+
+.h2sy2{
+    display: block;
+    text-align: justify;
+    margin-left: 50%;
+    margin-right: 5%;
+    font-family: LiF;
+}
+
+#hr{
+    border: solid 1px black;
+    margin-left: 50%;
+    margin-top: 5%;
+}

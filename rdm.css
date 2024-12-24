@@ -1,0 +1,143 @@
+* {box-sizing: border-box}
+.head1{
+    text-align: center;
+    font-family:title;
+}
+hr{
+    border: solid black 0px;
+    margin-bottom: 0px;
+}
+.blaz{
+    display:block;
+    width:35%;
+    margin-left:40px;
+    float:left;
+}
+.navbar{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    overflow: hidden;
+    background-color: #333;
+    display:flex;
+    justify-content: space-around;
+}
+.navbar a{
+    display:block;
+    color:white;
+    text-align:center;
+    padding:14px 15px;
+    display:flex;
+    text-decoration:none;
+    width:25%;
+}
+.navbar a.h:hover{
+    background-color: #6e6e69;
+    }
+.navbar a.f:hover{
+    background-color: #ff7433;
+    }
+.navbar a.w:hover{
+    background-color: #268bff;
+    }
+.navbar a.g:hover{
+    background-color: #1acc7f;
+    }
+.navbar a.fy:hover{
+    background-color: #ff3891;
+    }
+.navbar a.p:hover{
+    background-color: #a928ff;
+    }
+a{
+    text-align: center;
+    max-width: 100%;
+}
+
+.ash{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width:60%;
+    height: 50%;
+}
+
+.bzk,.ky{
+    display: block;
+    float: left;
+    width: 20%;
+    margin-left: 10%;
+}
+@font-face {
+    font-family:title ;
+    src: url(MugioPersonalUse-Bold.otf);
+}
+@font-face {
+    font-family: bebas;
+    src: url(BebasNeue-Regular.ttf);
+}
+@font-face {
+    font-family: sans;
+    src: url(SourceSans3-Medium.ttf);
+}
+@font-face {
+    font-family: rob;
+    src: url(Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: acumin;
+    src: url(Acumin-BdPro.otf);
+}
+@font-face {
+    font-family:LiF;
+    src: url(LibreFranklin-SemiBold.ttf);
+}
+.h2bzk,.h2bzk0{
+    display: block;
+    background: -webkit-linear-gradient(#8B0000, #B22222);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: #333;
+    font-family: rob ;
+    font-weight: bold;
+    font-size: 50px;
+    margin-right: 18%;
+}
+.h2bzk0{
+    background: -webkit-linear-gradient(#ff7d0b, #f02323);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: #333;
+}
+.h3bzk,.h3bzk0{
+    display: block;
+    text-align: justify;
+    margin-left: 50%;
+    margin-right: 5%;
+    font-family: LiF;
+}
+
+#hr{
+    border: solid 1px black;
+    margin-left: 0%;
+    margin-top: 5%;
+}
+
+button{
+    display: block;
+    border:#165cad 3px solid;
+    border-radius: 45px;
+    background-color: #165cad;
+    color:aliceblue;
+    padding: 5px;
+    width: 150px;
+    height: 50px;
+    font-family:LiF ;
+    font-size: 15px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    position: relative;
+    margin-left: 15%;
+}
+
